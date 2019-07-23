@@ -1,11 +1,10 @@
-import React, { Fragment } from 'react';
-import { Router } from '@reach/router';
-
-import Launch from './launch';
-import Launches from './launches';
-import Cart from './cart';
-import Profile from './profile';
-import { Footer, PageContainer } from '../components';
+import { Router } from "@reach/router";
+import React, { Fragment } from "react";
+import { Footer, PageContainer } from "../components";
+import Cart from "./cart";
+import Launch from "./launch";
+import Launches from "./launches";
+import Profile from "./profile";
 
 export default function Pages() {
   return (
